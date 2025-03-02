@@ -1,0 +1,272 @@
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('fonts/BebasNeue-Regular.woff2') format('woff2'),
+       url('fonts/BebasNeue-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Regular.woff2') format('woff2'),
+       url('fonts/Poppins-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url('fonts/Merriweather-Regular.woff2') format('woff2'),
+       url('fonts/Merriweather-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.source-code-pro {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.Bebas-Neue {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.merriweather {
+  font-family: 'Merriweather', serif;
+}
+
+.banner-design {
+  -webkit-text-stroke: 1px #000000;
+  align-items: center;
+  background-image: url('Images/itswxnders_another_abstract_background_not_too_many_colors_mi_31431fe2-2c52-4a68-b90b-cd87963bac03_2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fb6f92;
+  display: flex;
+  font-family: monospace;
+  font-size: 62px;
+  height: 9rem;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.secondary-heading {
+  text-align: center;
+}
+
+.font-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.font-panel {
+  background-color: #f9f9f9;
+  border: 1px solid #352D39;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  flex: 1;
+  padding: 20px;
+}
+
+.font-label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.source-code-pro {
+  font-family: 'Source Code Pro', monospace;
+  text-decoration: underline;
+}
+
+.Bebas-Neue {
+  font-family: 'Bebas Neue', sans-serif;
+  text-decoration: underline;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: underline;
+}
+
+
+body {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0; /* Remove margins from the body */
+  padding: 0; /* Remove padding from the body */
+}
+
+.container {
+  border: 2px solid #352D39;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.main-heading {
+  text-align: center;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-block-end: 0.83em;
+  margin-block-start: 0.83em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  unicode-bidi: isolate;
+}
+
+.color-columns {
+  display: flex;
+  height: 30vh;
+}
+
+.color-column {
+  flex: 1;;
+  padding: 20px;
+  text-align: center;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.tiffany-blue {
+  background-color: #A9DDD6;
+  color: black;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.color-panel {
+  display: inline-block;
+  margin: 20px auto;
+  min-width: 100px;
+  text-align: center;
+  width: 32%;
+}
+
+p {
+  display: block;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  unicode-bidi: isolate;
+}
+
+.slate-gray {
+  background-color: #7A8B99;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: normal;
+
+}
+
+.bright-pink {
+  background-color: #FF6978;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: normal;
+
+}
+
+.eggplant {
+  background-color: #6D435A;
+  color: white;
+  font-size: 17px;
+  font-weight: normal;
+
+}
+
+.raisin-black {
+  background-color: #352D39;
+  color: white;
+  font-size: 17px;
+  font-weight: normal;
+
+}
+
+.third-heading {
+  text-align: center;
+}
+
+.text-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.text-panel {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+
+.text-panel h1, .text-panel h2, .text-panel h3 {
+  margin-top: 0;
+}
+
+.text-panel ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.text-panel li {
+  margin-bottom: 10px; /* Add space between bullet points */
+}
+
+.paragraph-text {
+  font-size: 20px;
+  display: inline;
+  text-decoration: underline;
+}
+
+.footer-container {
+  background-color: rgba(53, 45, 57, 0.8);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 0; /* Initially hidden */
+  transform: translateY(100%); /* Initially positioned below the viewport */
+  transition: opacity 0.5s ease, transform 0.5s ease; /* Transition effects */
+}
+
+.footer-container.show {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Positioned at the bottom of the viewport */
+}
+
+.footer-container a {
+  color: #fb6f92;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}
